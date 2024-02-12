@@ -1,0 +1,40 @@
+1
+00:00:00,251 --> 00:00:02,533
+1. openBrowser("")
+
+2
+00:00:02,535 --> 00:00:02,878
+5. maximizeWindow()
+
+3
+00:00:02,879 --> 00:00:05,893
+9. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+4
+00:00:05,895 --> 00:00:10,130
+13. click(findTestObject("Object Repository/positive/pencarian/input kurang/svg_Sign out_menuSearch"))
+
+5
+00:00:10,132 --> 00:00:11,357
+17. setText(findTestObject("Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete"), "hp pavilion")
+
+6
+00:00:11,358 --> 00:00:24,901
+21. sendKeys(findTestObject("Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+7
+00:00:24,948 --> 00:00:26,121
+25. click(findTestObject("Object Repository/positive/pencarian/input kurang/img"))
+
+8
+00:00:26,123 --> 00:00:27,013
+29. click(findTestObject("Object Repository/positive/pencarian/input kurang/li_SOLD OUT                                _b72a2b"))
+
+9
+00:00:27,016 --> 00:00:28,170
+33. click(findTestObject("Object Repository/positive/pencarian/input kurang/button_ADD TO CART"))
+
+10
+00:00:28,173 --> 00:00:28,644
+37. closeBrowser()
+

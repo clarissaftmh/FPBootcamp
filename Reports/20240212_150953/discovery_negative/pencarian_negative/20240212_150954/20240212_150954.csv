@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pencarian_negative,Chrome 121.0.0.0,,,12-02-2024 15:10:13,12-02-2024 15:10:57,43.832s,PASSED
+,,,,,,,
+Test Cases/negative/pencarian/pencarian_notfound,Chrome 121.0.0.0,,,12-02-2024 15:10:13,12-02-2024 15:10:57,43.405s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 15:10:15,12-02-2024 15:10:18,3.472s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 15:10:18,12-02-2024 15:10:18,0.200s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 15:10:18,12-02-2024 15:10:22,4.169s,PASSED
+"click(findTestObject(""Object Repository/negative/input not found/svg_Sign out_menuSearch""))",Chrome 121.0.0.0,,,12-02-2024 15:10:22,12-02-2024 15:10:27,4.918s,PASSED
+"setText(findTestObject(""Object Repository/negative/input not found/input_Sign out_autoComplete""), ""charger"")",Chrome 121.0.0.0,,,12-02-2024 15:10:27,12-02-2024 15:10:28,1.097s,PASSED
+"sendKeys(findTestObject(""Object Repository/negative/input not found/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 15:10:28,12-02-2024 15:10:40,11.984s,PASSED
+"if (verifyElementNotVisible(findTestObject(""Object Repository/positive/pencarian/popup_element"")))",Chrome 121.0.0.0,,,12-02-2024 15:10:40,12-02-2024 15:10:54,14.039s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 15:10:54,12-02-2024 15:10:55,0.267s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 15:10:57,12-02-2024 15:10:57,0.002s,PASSED

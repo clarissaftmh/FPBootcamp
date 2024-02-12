@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pencarian_positive" time="419.064" tests="7" failures="0" errors="0">
+   <testsuite name="pencarian_positive" tests="7" failures="0" errors="0" time="419.064" skipped="0" timestamp="12-02-2024T15:11:13" hostname="ASUS - LAPTOP-86QR281O" id="Test Suites/discovery_positive/pencarian_positive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\FPBootcamp\\Reports\\20240212_150953\\discovery_positive\\pencarian_positive\\20240212_150957"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\FPBootcamp\\Reports\\20240212_150953\\discovery_positive\\pencarian_positive\\20240212_150957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-86QR281O"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.211"/>
+         <property name="sessionId" value="fad72ac22edcd41fa6bfc7e6e26769c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/positive/pencarian/pencarian_produk_tepat" time="54.932" classname="Test Cases/positive/pencarian/pencarian_produk_tepat" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:11:14 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/pencarian_produk_tepat: Test Cases/positive/pencarian/pencarian_produk_tepat
+
+12-02-2024T15:11:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:11:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:11:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:11:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:11:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:11:20 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:11:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+12-02-2024T15:11:24 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+12-02-2024T15:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), "hp pavilion 15z touch laptop"): Text 'hp pavilion 15z touch laptop' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:11:30 - [MESSAGE][PASSED] - Text 'hp pavilion 15z touch laptop' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:11:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:12:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc")): Object: 'Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc' is clicked on
+
+12-02-2024T15:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc' is clicked on
+
+12-02-2024T15:12:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/button_ADD TO CART")): Object: 'Object Repository/positive/pencarian/input valid/button_ADD TO CART' is clicked on
+
+12-02-2024T15:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/button_ADD TO CART' is clicked on
+
+12-02-2024T15:12:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:12:07 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:12:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/pencarian_produk_tepat' .
+
+12-02-2024T15:12:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/pencarian_produk_tepat' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/pencarian/pencarian_produk_tidak tepat" time="30.76" classname="Test Cases/positive/pencarian/pencarian_produk_tidak tepat" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:12:09 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/pencarian_produk_tidak tepat: Test Cases/positive/pencarian/pencarian_produk_tidak tepat
+
+12-02-2024T15:12:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:12:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:12:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:12:12 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:12:15 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input kurang/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input kurang/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input kurang/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete"), "hp pavilion"): Text 'hp pavilion' is set on object 'Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete'
+
+12-02-2024T15:12:20 - [MESSAGE][PASSED] - Text 'hp pavilion' is set on object 'Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete'
+
+12-02-2024T15:12:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete'
+
+12-02-2024T15:12:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input kurang/input_Sign out_autoComplete'
+
+12-02-2024T15:12:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input kurang/img")): Object: 'Object Repository/positive/pencarian/input kurang/img' is clicked on
+
+12-02-2024T15:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input kurang/img' is clicked on
+
+12-02-2024T15:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input kurang/li_SOLD OUT                                _b72a2b")): Object: 'Object Repository/positive/pencarian/input kurang/li_SOLD OUT                                _b72a2b' is clicked on
+
+12-02-2024T15:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input kurang/li_SOLD OUT                                _b72a2b' is clicked on
+
+12-02-2024T15:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input kurang/button_ADD TO CART")): Object: 'Object Repository/positive/pencarian/input kurang/button_ADD TO CART' is clicked on
+
+12-02-2024T15:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input kurang/button_ADD TO CART' is clicked on
+
+12-02-2024T15:12:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:12:37 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:12:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/pencarian_produk_tidak tepat' .
+
+12-02-2024T15:12:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/pencarian_produk_tidak tepat' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/pencarian/data produk" time="70.273" classname="Test Cases/positive/pencarian/data produk" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:12:40 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/data produk: Test Cases/positive/pencarian/data produk
+
+12-02-2024T15:12:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:12:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:12:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:12:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:12:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:12:42 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:12:42 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:12:46 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), namaProduk): Text 'HP ENVY - 17T TOUCH LAPTOP' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:12:52 - [MESSAGE][PASSED] - Text 'HP ENVY - 17T TOUCH LAPTOP' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:12:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-02-2024T15:12:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-02-2024T15:12:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:13:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:13:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/data driven/card_result"), 5): Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data driven/card_result")): Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:13:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:13:48 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:13:50 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/data produk' .
+
+12-02-2024T15:13:50 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/data produk' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/pencarian/data produk" time="100.689" classname="Test Cases/positive/pencarian/data produk" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:13:50 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/data produk: Test Cases/positive/pencarian/data produk
+
+12-02-2024T15:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:13:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:13:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:13:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:13:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:13:52 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:13:52 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:13:55 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), namaProduk): Text 'BOSE SOUNDLINK BLUETOOTH SPEAKER III' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:14:01 - [MESSAGE][PASSED] - Text 'BOSE SOUNDLINK BLUETOOTH SPEAKER III' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:14:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-02-2024T15:14:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-02-2024T15:14:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:14:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:14:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/data driven/card_result"), 5): Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data driven/card_result")): Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:15:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:15:29 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:15:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/data produk' .
+
+12-02-2024T15:15:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/data produk' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/pencarian/data produk" time="80.436" classname="Test Cases/positive/pencarian/data produk" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:15:31 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/data produk: Test Cases/positive/pencarian/data produk
+
+12-02-2024T15:15:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:15:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:15:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:15:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:15:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:15:32 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:15:32 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:15:35 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:15:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), namaProduk): Text 'HP USB 3 BUTTON OPTICAL MOUSE' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:15:43 - [MESSAGE][PASSED] - Text 'HP USB 3 BUTTON OPTICAL MOUSE' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:15:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-02-2024T15:15:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-02-2024T15:15:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:16:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:16:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/data driven/card_result"), 5): Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data driven/card_result")): Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:16:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:16:49 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:16:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/data produk' .
+
+12-02-2024T15:16:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/data produk' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/pencarian/data produk" time="67.576" classname="Test Cases/positive/pencarian/data produk" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:16:51 - [TEST_CASE][PASSED] - Test Cases/positive/pencarian/data produk: Test Cases/positive/pencarian/data produk
+
+12-02-2024T15:16:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:16:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:16:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:16:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:16:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:16:53 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:16:53 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:16:56 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T15:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T15:17:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), namaProduk): Text 'HP ELITEPAD 1000 G2 TABLET' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:17:02 - [MESSAGE][PASSED] - Text 'HP ELITEPAD 1000 G2 TABLET' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:17:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-02-2024T15:17:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-02-2024T15:17:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:17:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T15:17:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/data driven/card_result"), 5): Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/data driven/card_result' is visible
+
+12-02-2024T15:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data driven/card_result")): Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/data driven/card_result' is clicked on
+
+12-02-2024T15:17:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:17:57 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:17:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/pencarian/data produk' .
+
+12-02-2024T15:17:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/pencarian/data produk' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/positive/filtering/filtering_switch_case" time="13.564" classname="Test Cases/positive/filtering/filtering_switch_case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:17:59 - [TEST_CASE][PASSED] - Test Cases/positive/filtering/filtering_switch_case: Test Cases/positive/filtering/filtering_switch_case
+
+12-02-2024T15:17:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T15:17:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T15:17:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T15:18:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T15:18:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T15:18:00 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T15:18:00 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/search/"): Navigate to 'https://advantageonlineshopping.com/#/search/' successfully
+
+12-02-2024T15:18:04 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/search/' successfully
+
+12-02-2024T15:18:04 - [TEST_STEP][PASSED] - kategori = "LAPTOPS": null
+
+12-02-2024T15:18:04 - [TEST_STEP][PASSED] - switch (kategori): null
+
+12-02-2024T15:18:04 - [TEST_STEP][PASSED] - case "LAPTOPS":: null
+
+12-02-2024T15:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/filtering/fitlering_coba/Page_Advantage Shopping/input_CATEGORIES_category")): Object: 'Object Repository/filtering/fitlering_coba/Page_Advantage Shopping/input_CATEGORIES_category' is clicked on
+
+12-02-2024T15:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/filtering/fitlering_coba/Page_Advantage Shopping/input_CATEGORIES_category' is clicked on
+
+12-02-2024T15:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/filtering/categories/label selected project/Page_Advantage Shopping/hp paviliun")): Object: 'Object Repository/filtering/categories/label selected project/Page_Advantage Shopping/hp paviliun' is clicked on
+
+12-02-2024T15:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/filtering/categories/label selected project/Page_Advantage Shopping/hp paviliun' is clicked on
+
+12-02-2024T15:18:07 - [TEST_STEP][PASSED] - break: null
+
+12-02-2024T15:18:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/data driven/h1_laptop_name"), 10): Object 'Object Repository/data driven/h1_laptop_name' is visible
+
+12-02-2024T15:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/data driven/h1_laptop_name' is visible
+
+12-02-2024T15:18:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T15:18:10 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T15:18:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/positive/filtering/filtering_switch_case' .
+
+12-02-2024T15:18:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/positive/filtering/filtering_switch_case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:11:13 - [TEST_SUITE][PASSED] - pencarian_positive: Test Cases/positive/filtering/filtering_switch_case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

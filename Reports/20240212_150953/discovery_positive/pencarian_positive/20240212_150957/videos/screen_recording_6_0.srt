@@ -1,0 +1,40 @@
+1
+00:00:00,004 --> 00:00:01,192
+1. openBrowser("")
+
+2
+00:00:01,193 --> 00:00:01,361
+5. maximizeWindow()
+
+3
+00:00:01,362 --> 00:00:05,022
+9. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+4
+00:00:05,023 --> 00:00:09,257
+13. click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch"))
+
+5
+00:00:09,258 --> 00:00:10,527
+17. setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), namaProduk)
+
+6
+00:00:10,528 --> 00:00:15,545
+21. delay(5)
+
+7
+00:00:15,547 --> 00:00:45,757
+25. sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+8
+00:00:45,805 --> 00:01:04,598
+29. waitForElementVisible(findTestObject("Object Repository/data driven/card_result"), 5)
+
+9
+00:01:04,604 --> 00:01:05,123
+33. click(findTestObject("Object Repository/data driven/card_result"))
+
+10
+00:01:05,125 --> 00:01:05,375
+37. closeBrowser()
+

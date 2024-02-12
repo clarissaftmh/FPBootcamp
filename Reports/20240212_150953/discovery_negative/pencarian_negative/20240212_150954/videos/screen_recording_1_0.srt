@@ -1,0 +1,52 @@
+1
+00:00:00,642 --> 00:00:04,106
+1. openBrowser("")
+
+2
+00:00:04,135 --> 00:00:04,335
+5. maximizeWindow()
+
+3
+00:00:04,336 --> 00:00:08,506
+9. navigateToUrl(url)
+
+4
+00:00:08,507 --> 00:00:13,427
+13. click(findTestObject("Object Repository/negative/input not found/svg_Sign out_menuSearch"))
+
+5
+00:00:13,428 --> 00:00:14,524
+17. setText(findTestObject("Object Repository/negative/input not found/input_Sign out_autoComplete"), "charger")
+
+6
+00:00:14,525 --> 00:00:26,508
+21. sendKeys(findTestObject("Object Repository/negative/input not found/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+7
+00:00:26,510 --> 00:00:28,487
+25. if (verifyElementNotVisible(findTestObject("Object Repository/positive/pencarian/popup_element")))
+
+8
+00:00:28,488 --> 00:00:30,553
+1. click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch"))
+
+9
+00:00:30,554 --> 00:00:34,813
+5. setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), "hp pavilion 15z touch laptop")
+
+10
+00:00:34,814 --> 00:00:36,854
+9. sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+11
+00:00:36,855 --> 00:00:38,652
+13. click(findTestObject("Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc"))
+
+12
+00:00:38,654 --> 00:00:40,547
+17. click(findTestObject("Object Repository/positive/pencarian/input valid/button_ADD TO CART"))
+
+13
+00:00:40,549 --> 00:00:40,820
+29. closeBrowser()
+

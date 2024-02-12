@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+akun,Chrome 121.0.0.0,,,12-02-2024 15:18:29,12-02-2024 15:19:56,1m - 27.877s,PASSED
+,,,,,,,
+Test Cases/positive/akun/login,Chrome 121.0.0.0,,,12-02-2024 15:18:29,12-02-2024 15:19:14,45.375s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 15:18:30,12-02-2024 15:18:33,3.216s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 15:18:33,12-02-2024 15:18:37,4.005s,PASSED
+"click(findTestObject(""Object Repository/login/Page_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath""))",Chrome 121.0.0.0,,,12-02-2024 15:18:37,12-02-2024 15:19:09,31.934s,PASSED
+"setText(findTestObject(""Object Repository/login/Page_Advantage Shopping/input_OR_username""), ""claelynt"")",Chrome 121.0.0.0,,,12-02-2024 15:19:09,12-02-2024 15:19:10,1.006s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/Page_Advantage Shopping/input_Username_password""), ""eORqx8DpZuw="")",Chrome 121.0.0.0,,,12-02-2024 15:19:10,12-02-2024 15:19:11,1.334s,PASSED
+"click(findTestObject(""Object Repository/login/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,12-02-2024 15:19:11,12-02-2024 15:19:12,0.687s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 15:19:12,12-02-2024 15:19:12,0.282s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 15:19:14,12-02-2024 15:19:14,0.002s,PASSED
+,,,,,,,
+Test Cases/positive/akun/register,Chrome 121.0.0.0,,,12-02-2024 15:19:14,12-02-2024 15:19:56,42.061s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 15:19:15,12-02-2024 15:19:16,1.076s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 15:19:16,12-02-2024 15:19:20,4.397s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 15:19:20,12-02-2024 15:19:24,4.303s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 15:19:24,12-02-2024 15:19:25,0.749s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input__usernameRegisterPage""), ""clae123"")",Chrome 121.0.0.0,,,12-02-2024 15:19:25,12-02-2024 15:19:32,6.859s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/label_Email""))",Chrome 121.0.0.0,,,12-02-2024 15:19:32,12-02-2024 15:19:33,0.611s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input__emailRegisterPage""), ""clae123@gmail.com"")",Chrome 121.0.0.0,,,12-02-2024 15:19:33,12-02-2024 15:19:34,1.447s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input__passwordRegisterPage""), ""eORqx8DpZuw="")",Chrome 121.0.0.0,,,12-02-2024 15:19:34,12-02-2024 15:19:35,0.800s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/label_Confirm password""))",Chrome 121.0.0.0,,,12-02-2024 15:19:35,12-02-2024 15:19:36,0.619s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), ""eORqx8DpZuw="")",Chrome 121.0.0.0,,,12-02-2024 15:19:36,12-02-2024 15:19:36,0.721s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage""), ""Clae"")",Chrome 121.0.0.0,,,12-02-2024 15:19:36,12-02-2024 15:19:38,1.354s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033""), ""123"")",Chrome 121.0.0.0,,,12-02-2024 15:19:38,12-02-2024 15:19:39,1.217s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), ""123"")",Chrome 121.0.0.0,,,12-02-2024 15:19:39,12-02-2024 15:19:40,1.446s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), ""object:177"", true)",Chrome 121.0.0.0,,,12-02-2024 15:19:40,12-02-2024 15:19:46,6.123s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/label_City""))",Chrome 121.0.0.0,,,12-02-2024 15:19:46,12-02-2024 15:19:47,0.485s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_Country_cityRegisterPage""), ""sby"")",Chrome 121.0.0.0,,,12-02-2024 15:19:47,12-02-2024 15:19:48,1.234s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3""), ""sby"")",Chrome 121.0.0.0,,,12-02-2024 15:19:48,12-02-2024 15:19:49,1.307s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/label_State  Province  Region""))",Chrome 121.0.0.0,,,12-02-2024 15:19:49,12-02-2024 15:19:50,0.669s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54""), ""sby"")",Chrome 121.0.0.0,,,12-02-2024 15:19:50,12-02-2024 15:19:51,1.238s,PASSED
+"setText(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f""), ""123"")",Chrome 121.0.0.0,,,12-02-2024 15:19:51,12-02-2024 15:19:53,1.249s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,12-02-2024 15:19:53,12-02-2024 15:19:53,0.681s,PASSED
+"click(findTestObject(""Object Repository/login/register/Page_Advantage Shopping/button_REGISTER""))",Chrome 121.0.0.0,,,12-02-2024 15:19:53,12-02-2024 15:19:54,0.785s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 15:19:54,12-02-2024 15:19:54,0.297s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 15:19:56,12-02-2024 15:19:56,0.001s,PASSED
