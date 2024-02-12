@@ -1,0 +1,40 @@
+1
+00:00:00,189 --> 00:00:01,393
+1. openBrowser("")
+
+2
+00:00:01,394 --> 00:00:01,553
+5. maximizeWindow()
+
+3
+00:00:01,555 --> 00:00:05,908
+9. navigateToUrl("https://advantageonlineshopping.com/#/search/")
+
+4
+00:00:05,910 --> 00:00:05,916
+13. kategori = "LAPTOPS"
+
+5
+00:00:05,917 --> 00:00:05,924
+17. switch (kategori)
+
+6
+00:00:05,925 --> 00:00:08,735
+2. click(findTestObject("Object Repository/filtering/fitlering_coba/Page_Advantage Shopping/input_CATEGORIES_category"))
+
+7
+00:00:08,736 --> 00:00:09,381
+6. click(findTestObject("Object Repository/filtering/categories/label selected project/Page_Advantage Shopping/hp paviliun"))
+
+8
+00:00:09,415 --> 00:00:09,420
+10. break
+
+9
+00:00:09,421 --> 00:00:13,966
+21. waitForElementVisible(findTestObject("Object Repository/data driven/h1_laptop_name"), 10)
+
+10
+00:00:13,967 --> 00:00:14,209
+25. closeBrowser()
+

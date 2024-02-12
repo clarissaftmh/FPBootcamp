@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pencarian_negative" time="42.01" tests="1" failures="0" errors="0">
+   <testsuite name="pencarian_negative" tests="1" failures="0" errors="0" time="42.01" skipped="0" timestamp="12-02-2024T14:11:11" hostname="ASUS - LAPTOP-86QR281O" id="Test Suites/discovery_negative/pencarian_negative">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\FPBootcamp\\Reports\\20240212_141056\\discovery_negative\\pencarian_negative\\20240212_141057"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\FPBootcamp\\Reports\\20240212_141056\\discovery_negative\\pencarian_negative\\20240212_141057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-86QR281O"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.211"/>
+         <property name="sessionId" value="f4b957a46c7b262406f151373a86f2c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/negative/pencarian/pencarian_notfound" time="41.553" classname="Test Cases/negative/pencarian/pencarian_notfound" status="PASSED">
+         <system-out><![CDATA[12-02-2024T14:11:11 - [TEST_CASE][PASSED] - Test Cases/negative/pencarian/pencarian_notfound: Test Cases/negative/pencarian/pencarian_notfound
+
+12-02-2024T14:11:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T14:11:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T14:11:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T14:11:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T14:11:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T14:11:16 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T14:11:16 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+12-02-2024T14:11:20 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+12-02-2024T14:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/negative/input not found/svg_Sign out_menuSearch")): Object: 'Object Repository/negative/input not found/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T14:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/negative/input not found/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T14:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/negative/input not found/input_Sign out_autoComplete"), "charger"): Text 'charger' is set on object 'Object Repository/negative/input not found/input_Sign out_autoComplete'
+
+12-02-2024T14:11:26 - [MESSAGE][PASSED] - Text 'charger' is set on object 'Object Repository/negative/input not found/input_Sign out_autoComplete'
+
+12-02-2024T14:11:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/negative/input not found/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/negative/input not found/input_Sign out_autoComplete'
+
+12-02-2024T14:11:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/negative/input not found/input_Sign out_autoComplete'
+
+12-02-2024T14:11:40 - [TEST_STEP][PASSED] - if (verifyElementNotVisible(findTestObject("Object Repository/positive/pencarian/popup_element"))): null
+
+12-02-2024T14:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/positive/pencarian/popup_element' is NOT visible
+
+12-02-2024T14:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch")): Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T14:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T14:11:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), "hp pavilion 15z touch laptop"): Text 'hp pavilion 15z touch laptop' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T14:11:44 - [MESSAGE][PASSED] - Text 'hp pavilion 15z touch laptop' is set on object 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T14:11:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T14:11:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete'
+
+12-02-2024T14:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc")): Object: 'Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc' is clicked on
+
+12-02-2024T14:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc' is clicked on
+
+12-02-2024T14:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/positive/pencarian/input valid/button_ADD TO CART")): Object: 'Object Repository/positive/pencarian/input valid/button_ADD TO CART' is clicked on
+
+12-02-2024T14:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/positive/pencarian/input valid/button_ADD TO CART' is clicked on
+
+12-02-2024T14:11:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T14:11:51 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T14:11:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/negative/pencarian/pencarian_notfound' .
+
+12-02-2024T14:11:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/negative/pencarian/pencarian_notfound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T14:11:11 - [TEST_SUITE][PASSED] - pencarian_negative: Test Cases/negative/pencarian/pencarian_notfound]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pencarian_positive,Chrome 121.0.0.0,,,12-02-2024 14:12:03,12-02-2024 14:17:53,5m - 50.542s,PASSED
+,,,,,,,
+Test Cases/positive/pencarian/data produk,Chrome 121.0.0.0,,,12-02-2024 14:12:03,12-02-2024 14:13:22,1m - 18.326s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 14:12:04,12-02-2024 14:12:07,3.163s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 14:12:07,12-02-2024 14:12:07,0.174s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 14:12:07,12-02-2024 14:12:12,4.401s,PASSED
+"click(findTestObject(""Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch""))",Chrome 121.0.0.0,,,12-02-2024 14:12:12,12-02-2024 14:12:16,4.691s,PASSED
+"setText(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), namaProduk)",Chrome 121.0.0.0,,,12-02-2024 14:12:16,12-02-2024 14:12:18,1.638s,PASSED
+delay(5),Chrome 121.0.0.0,,,12-02-2024 14:12:18,12-02-2024 14:12:23,5.104s,PASSED
+"sendKeys(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 14:12:23,12-02-2024 14:12:54,30.500s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/data driven/card_result""), 5)",Chrome 121.0.0.0,,,12-02-2024 14:12:54,12-02-2024 14:13:18,24.638s,PASSED
+"click(findTestObject(""Object Repository/data driven/card_result""))",Chrome 121.0.0.0,,,12-02-2024 14:13:18,12-02-2024 14:13:19,0.688s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 14:13:19,12-02-2024 14:13:19,0.347s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 14:13:22,12-02-2024 14:13:22,0.005s,PASSED
+,,,,,,,
+Test Cases/positive/pencarian/data produk,Chrome 121.0.0.0,,,12-02-2024 14:13:22,12-02-2024 14:15:06,1m - 43.735s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 14:13:22,12-02-2024 14:13:23,1.364s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 14:13:23,12-02-2024 14:13:23,0.139s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 14:13:23,12-02-2024 14:13:28,4.700s,PASSED
+"click(findTestObject(""Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch""))",Chrome 121.0.0.0,,,12-02-2024 14:13:28,12-02-2024 14:13:33,4.781s,PASSED
+"setText(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), namaProduk)",Chrome 121.0.0.0,,,12-02-2024 14:13:33,12-02-2024 14:13:35,1.899s,PASSED
+delay(5),Chrome 121.0.0.0,,,12-02-2024 14:13:35,12-02-2024 14:13:40,5.022s,PASSED
+"sendKeys(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 14:13:40,12-02-2024 14:14:10,30.411s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/data driven/card_result""), 5)",Chrome 121.0.0.0,,,12-02-2024 14:14:10,12-02-2024 14:14:41,30.331s,PASSED
+"click(findTestObject(""Object Repository/data driven/card_result""))",Chrome 121.0.0.0,,,12-02-2024 14:14:41,12-02-2024 14:15:03,22.488s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 14:15:03,12-02-2024 14:15:03,0.351s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 14:15:06,12-02-2024 14:15:06,0.002s,PASSED
+,,,,,,,
+Test Cases/positive/pencarian/data produk,Chrome 121.0.0.0,,,12-02-2024 14:15:06,12-02-2024 14:16:30,1m - 24.836s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 14:15:06,12-02-2024 14:15:07,1.356s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 14:15:07,12-02-2024 14:15:07,0.144s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 14:15:07,12-02-2024 14:15:12,4.747s,PASSED
+"click(findTestObject(""Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch""))",Chrome 121.0.0.0,,,12-02-2024 14:15:12,12-02-2024 14:15:16,4.524s,PASSED
+"setText(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), namaProduk)",Chrome 121.0.0.0,,,12-02-2024 14:15:16,12-02-2024 14:15:18,1.411s,PASSED
+delay(5),Chrome 121.0.0.0,,,12-02-2024 14:15:18,12-02-2024 14:15:23,5.023s,PASSED
+"sendKeys(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 14:15:23,12-02-2024 14:15:53,30.502s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/data driven/card_result""), 5)",Chrome 121.0.0.0,,,12-02-2024 14:15:53,12-02-2024 14:16:24,30.257s,PASSED
+"click(findTestObject(""Object Repository/data driven/card_result""))",Chrome 121.0.0.0,,,12-02-2024 14:16:24,12-02-2024 14:16:28,4.202s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 14:16:28,12-02-2024 14:16:28,0.386s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 14:16:30,12-02-2024 14:16:30,0.001s,PASSED
+,,,,,,,
+Test Cases/positive/pencarian/data produk,Chrome 121.0.0.0,,,12-02-2024 14:16:31,12-02-2024 14:17:53,1m - 22.920s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 14:16:31,12-02-2024 14:16:32,1.439s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,12-02-2024 14:16:32,12-02-2024 14:16:32,0.201s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 14:16:32,12-02-2024 14:16:36,4.057s,PASSED
+"click(findTestObject(""Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch""))",Chrome 121.0.0.0,,,12-02-2024 14:16:36,12-02-2024 14:16:43,6.685s,PASSED
+"setText(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), namaProduk)",Chrome 121.0.0.0,,,12-02-2024 14:16:43,12-02-2024 14:16:45,1.672s,PASSED
+delay(5),Chrome 121.0.0.0,,,12-02-2024 14:16:45,12-02-2024 14:16:50,5.012s,PASSED
+"sendKeys(findTestObject(""Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 14:16:50,12-02-2024 14:17:20,30.397s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/data driven/card_result""), 5)",Chrome 121.0.0.0,,,12-02-2024 14:17:20,12-02-2024 14:17:50,30.282s,PASSED
+"click(findTestObject(""Object Repository/data driven/card_result""))",Chrome 121.0.0.0,,,12-02-2024 14:17:50,12-02-2024 14:17:51,0.645s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 14:17:51,12-02-2024 14:17:51,0.276s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 14:17:53,12-02-2024 14:17:53,0.002s,PASSED

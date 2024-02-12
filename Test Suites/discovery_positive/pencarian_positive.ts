@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>d4096c73-db2d-46bb-aba5-2e2f9a5ab0a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/positive/pencarian/pencarian_produk_tepat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>32c39dd1-ce4e-447c-9470-65af70976628</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/positive/pencarian/pencarian_produk_tidak tepat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>8925100c-56da-4251-a793-bbc5af986267</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/positive/filtering/filtering_switch_case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

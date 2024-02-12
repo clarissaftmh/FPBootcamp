@@ -1,0 +1,28 @@
+1
+00:00:00,379 --> 00:00:03,718
+1. openBrowser("")
+
+2
+00:00:03,731 --> 00:00:08,301
+5. navigateToUrl(url)
+
+3
+00:00:08,304 --> 00:00:40,338
+9. click(findTestObject("Object Repository/login/Page_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath"))
+
+4
+00:00:40,340 --> 00:00:41,487
+13. setText(findTestObject("Object Repository/login/Page_Advantage Shopping/input_OR_username"), "claelynt")
+
+5
+00:00:41,488 --> 00:00:42,776
+17. setEncryptedText(findTestObject("Object Repository/login/Page_Advantage Shopping/input_Username_password"), "eORqx8DpZuw=")
+
+6
+00:00:42,777 --> 00:00:43,427
+21. click(findTestObject("Object Repository/login/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:43,475 --> 00:00:43,821
+25. closeBrowser()
+

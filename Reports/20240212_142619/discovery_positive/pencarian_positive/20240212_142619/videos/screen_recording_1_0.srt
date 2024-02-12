@@ -1,0 +1,36 @@
+1
+00:00:00,430 --> 00:00:03,697
+1. openBrowser("")
+
+2
+00:00:03,717 --> 00:00:03,938
+5. maximizeWindow()
+
+3
+00:00:03,939 --> 00:00:08,546
+9. navigateToUrl(url)
+
+4
+00:00:08,547 --> 00:00:13,415
+13. click(findTestObject("Object Repository/positive/pencarian/input valid/svg_Sign out_menuSearch"))
+
+5
+00:00:13,417 --> 00:00:14,818
+17. setText(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), "hp pavilion 15z touch laptop")
+
+6
+00:00:14,821 --> 00:00:45,263
+21. sendKeys(findTestObject("Object Repository/positive/pencarian/input valid/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+7
+00:00:45,313 --> 00:00:51,724
+25. click(findTestObject("Object Repository/positive/pencarian/input valid/li_SOLD OUT                                _5c76cc"))
+
+8
+00:00:51,726 --> 00:00:53,067
+29. click(findTestObject("Object Repository/positive/pencarian/input valid/button_ADD TO CART"))
+
+9
+00:00:53,070 --> 00:00:53,404
+33. closeBrowser()
+

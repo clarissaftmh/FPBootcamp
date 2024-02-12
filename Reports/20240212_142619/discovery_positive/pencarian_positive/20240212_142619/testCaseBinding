@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/positive/pencarian/pencarian_produk_tepat","testCaseId":"Test Cases/positive/pencarian/pencarian_produk_tepat","iterationVariableName":""}
+{"testCaseName":"Test Cases/positive/pencarian/pencarian_produk_tidak tepat","testCaseId":"Test Cases/positive/pencarian/pencarian_produk_tidak tepat","iterationVariableName":""}
+{"testCaseName":"Test Cases/positive/pencarian/data produk","testCaseId":"Test Cases/positive/pencarian/data produk","iterationVariableName":"","bindedValues":{"namaProduk":"\u0027HP ENVY - 17T TOUCH LAPTOP\u0027","rentangHarga":"\u0027\\\"$849.99\\\"\u0027"}}
+{"testCaseName":"Test Cases/positive/pencarian/data produk","testCaseId":"Test Cases/positive/pencarian/data produk","iterationVariableName":"","bindedValues":{"namaProduk":"\u0027BOSE SOUNDLINK BLUETOOTH SPEAKER III\u0027","rentangHarga":"\u0027\\\"$269.99\\\"\u0027"}}
+{"testCaseName":"Test Cases/positive/pencarian/data produk","testCaseId":"Test Cases/positive/pencarian/data produk","iterationVariableName":"","bindedValues":{"namaProduk":"\u0027HP USB 3 BUTTON OPTICAL MOUSE\u0027","rentangHarga":"\u0027\\\"$9.99\\\"\u0027"}}
+{"testCaseName":"Test Cases/positive/pencarian/data produk","testCaseId":"Test Cases/positive/pencarian/data produk","iterationVariableName":"","bindedValues":{"namaProduk":"\u0027HP ELITEPAD 1000 G2 TABLET\u0027","rentangHarga":"\u0027\\\"$1,009.00\\\"\u0027"}}
+{"testCaseName":"Test Cases/positive/filtering/filtering_switch_case","testCaseId":"Test Cases/positive/filtering/filtering_switch_case","iterationVariableName":""}
