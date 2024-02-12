@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PRICE_noUi-handle noUi-handle-lower_1</name>
+   <tag></tag>
+   <elementGuidId>1002e7cd-8ce8-4692-a612-f32633c6a14d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='slider']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.noUi-handle.noUi-handle-lower</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d690208-91db-4bbb-a8df-2f119ccef534</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>noUi-handle noUi-handle-lower</value>
+      <webElementGuid>fd2ab75a-bc6e-4cba-91ac-1c6bba5ed224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;slider&quot;)/div[@class=&quot;noUi-base&quot;]/div[@class=&quot;noUi-origin noUi-connect noUi-stacking&quot;]/div[@class=&quot;noUi-handle noUi-handle-lower&quot;]</value>
+      <webElementGuid>661073cc-c155-4acf-831e-a39d369f86a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='slider']/div/div/div</value>
+      <webElementGuid>8f261f53-adb0-4b64-a884-f901d35f71d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div/div/div</value>
+      <webElementGuid>52c17ac2-8b65-4057-ab45-65a7d6512658</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
